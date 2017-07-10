@@ -1,3 +1,7 @@
+
+# Created by https://www.gitignore.io/api/python,virtualenv
+
+### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -43,7 +47,7 @@ htmlcov/
 .cache
 nosetests.xml
 coverage.xml
-*.cover
+*,cover
 .hypothesis/
 
 # Translations
@@ -97,7 +101,19 @@ ENV/
 # mkdocs documentation
 /site
 
-# mypy
-.mypy_cache/
+### VirtualEnv ###
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Mm]an
+[Ss]cripts
+[Tt]cl
+pyvenv.cfg
+pip-selfcheck.json
 
+# End of https://www.gitignore.io/api/python,virtualenv
 .ipynb_checkpoints/*
